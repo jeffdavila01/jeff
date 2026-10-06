@@ -3,11 +3,762 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Jeffrey Davila | AI & Full-Stack Developer Portfolio</title>
+
+    <meta
+        name="description"
+        content="Portfolio of Jeffrey Davila, an aspiring AI Developer and Full-Stack Web Developer working with Python, JavaScript, Node.js, and MySQL."
+    >
+
+    <meta name="author" content="Jeffrey Davila">
+
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
 
-    <h1>Hello, World!</h1>
-    
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                Jeffrey<span>.dev</span>
+            </a>
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <nav class="main-navigation" id="mainNavigation">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- HOME -->
+        <section class="hero" id="home">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <p class="hero-label">
+                        Hello, I'm
+                    </p>
+
+                    <h1>
+                        Jeffrey Davila
+                    </h1>
+
+                    <h2>
+                        Aspiring AI Developer
+                        <span>|</span>
+                        Full-Stack Web Development
+                    </h2>
+
+                    <p class="tech-headline">
+                        Python • JavaScript • Node.js • MySQL
+                    </p>
+
+                    <p class="hero-description">
+                        I build practical web applications and continue developing
+                        my skills in artificial intelligence, full-stack development,
+                        databases, APIs, and software development.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="btn btn-primary">
+                            View My Projects
+                        </a>
+
+                        <a href="#contact" class="btn btn-secondary">
+                            Contact Me
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-image">
+
+                    <div class="profile-card">
+
+                        <img
+                            src="images/profile.webp"
+                            alt="Jeffrey Davila profile photo"
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        About Me
+                    </p>
+
+                    <h2>
+                        Learning. Building. Improving.
+                    </h2>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-content">
+
+                        <p>
+                            I am an aspiring AI Developer and Full-Stack Web
+                            Development student with hands-on experience building
+                            websites, database-driven applications, APIs, automation
+                            tools, and programming projects.
+                        </p>
+
+                        <p>
+                            I work with technologies such as Python, JavaScript,
+                            Node.js, Express.js, MySQL, HTML, CSS, JSON, REST APIs,
+                            Git, GitHub, and Google Apps Script.
+                        </p>
+
+                        <p>
+                            My goal is to continue growing as a developer and move
+                            deeper into Artificial Intelligence development while
+                            building useful software that solves real-world problems.
+                        </p>
+
+                    </div>
+
+
+                    <!-- EDUCATION / SCHOOL BACKGROUND -->
+                    <div class="education-card">
+
+                        <h3>
+                            Education & School Background
+                        </h3>
+
+
+                        <article class="education-item">
+
+                            <span class="education-status">
+                                In Progress
+                            </span>
+
+                            <h4>
+                                Bachelor of Science in Web Development
+                            </h4>
+
+                            <p>
+                                Brigham Young University–Idaho
+                            </p>
+
+                            <small>
+                                Through BYU-Pathway Worldwide
+                            </small>
+
+                        </article>
+
+
+                        <article class="education-item">
+
+                            <span class="education-status completed">
+                                Completed
+                            </span>
+
+                            <h4>
+                                PathwayConnect
+                            </h4>
+
+                            <p>
+                                BYU-Pathway Worldwide
+                            </p>
+
+                        </article>
+
+
+                        <article class="education-item">
+
+                            <h4>
+                                Secondary Education
+                            </h4>
+
+                            <p>
+                                Kaunlaran National High School
+                            </p>
+
+                            <small>
+                                2011 – 2015
+                            </small>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="section skills-section" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        Technical Skills
+                    </p>
+
+                    <h2>
+                        My Development Stack
+                    </h2>
+
+                    <p>
+                        Technologies and tools I use while building and learning.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            AI
+                        </div>
+
+                        <h3>
+                            AI-Assisted Development
+                        </h3>
+
+                        <p>
+                            Using AI for coding, debugging, planning,
+                            code improvement, and development workflows.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            PY
+                        </div>
+
+                        <h3>
+                            Python
+                        </h3>
+
+                        <p>
+                            Python fundamentals, conditions, loops,
+                            functions, regular expressions, validation,
+                            and scripting.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            JS
+                        </div>
+
+                        <h3>
+                            JavaScript
+                        </h3>
+
+                        <p>
+                            DOM manipulation, events, functions, arrays,
+                            objects, JSON, APIs, forms, and dynamic pages.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            WEB
+                        </div>
+
+                        <h3>
+                            HTML & CSS
+                        </h3>
+
+                        <p>
+                            Semantic HTML, responsive design, CSS Grid,
+                            Flexbox, forms, layouts, and mobile interfaces.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            NODE
+                        </div>
+
+                        <h3>
+                            Node.js & Express
+                        </h3>
+
+                        <p>
+                            Backend development, REST APIs, routes,
+                            server-side applications, and frontend/backend
+                            communication.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            SQL
+                        </div>
+
+                        <h3>
+                            MySQL
+                        </h3>
+
+                        <p>
+                            Database design, CRUD operations, tables,
+                            relationships, queries, primary keys, and
+                            foreign keys.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            API
+                        </div>
+
+                        <h3>
+                            APIs & JSON
+                        </h3>
+
+                        <p>
+                            Fetch API, REST API fundamentals,
+                            JSON data, third-party API integration,
+                            and dynamic data rendering.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            GIT
+                        </div>
+
+                        <h3>
+                            Git & GitHub
+                        </h3>
+
+                        <p>
+                            Version control, commits, repositories,
+                            GitHub Pages, pushing projects, and
+                            basic troubleshooting.
+                        </p>
+
+                    </article>
+
+
+                    <article class="skill-card">
+
+                        <div class="skill-icon">
+                            DEV
+                        </div>
+
+                        <h3>
+                            Debugging
+                        </h3>
+
+                        <p>
+                            Debugging JavaScript, Python, Node.js,
+                            API routes, database connections,
+                            browser errors, and application issues.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        Portfolio
+                    </p>
+
+                    <h2>
+                        Featured Projects
+                    </h2>
+
+                    <p>
+                        Projects where I apply my programming,
+                        database, and web development skills.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img
+                                src="images/projects/attendance.webp"
+                                alt="Attendance Management System project"
+                            >
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+                                Full-Stack
+                            </span>
+
+                            <h3>
+                                Attendance Management System
+                            </h3>
+
+                            <p>
+                                A database-driven employee attendance system
+                                with employee records, time-in and time-out
+                                tracking, dashboard data, and API integration.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>Node.js</span>
+                                <span>Express</span>
+                                <span>MySQL</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    Live Demo
+                                </a>
+
+                                <a href="#" class="project-link">
+                                    View Code
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img
+                                src="images/projects/sheetfix.webp"
+                                alt="SheetFix spreadsheet automation project"
+                            >
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+                                Automation
+                            </span>
+
+                            <h3>
+                                SheetFix
+                            </h3>
+
+                            <p>
+                                A spreadsheet-focused application designed
+                                to organize data, detect problems, validate
+                                records, and assist with repetitive data tasks.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>JavaScript</span>
+                                <span>Data</span>
+                                <span>Automation</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    Live Demo
+                                </a>
+
+                                <a href="#" class="project-link">
+                                    View Code
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="project-card">
+
+                        <div class="project-image">
+
+                            <img
+                                src="images/projects/chamber.webp"
+                                alt="Navotas Chamber website project"
+                            >
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+                                Frontend
+                            </span>
+
+                            <h3>
+                                Navotas Chamber Website
+                            </h3>
+
+                            <p>
+                                A responsive chamber website that uses
+                                JavaScript, JSON, responsive layouts,
+                                forms, and live weather API data.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>API</span>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="#" class="project-link">
+                                    Live Demo
+                                </a>
+
+                                <a href="#" class="project-link">
+                                    View Code
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- FUTURE AI PROJECT -->
+                    <article class="project-card future-project">
+
+                        <div class="project-content">
+
+                            <span class="project-type">
+                                Upcoming
+                            </span>
+
+                            <h3>
+                                AI Project
+                            </h3>
+
+                            <p>
+                                This space will be used for an upcoming
+                                Artificial Intelligence project as I continue
+                                developing my AI development skills.
+                            </p>
+
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>AI</span>
+                                <span>API</span>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-container">
+
+                    <div class="contact-info">
+
+                        <p class="section-label">
+                            Contact
+                        </p>
+
+                        <h2>
+                            Let's Build Something Together
+                        </h2>
+
+                        <p>
+                            I am interested in opportunities where I can
+                            continue developing my skills in AI,
+                            web development, backend development,
+                            Python, JavaScript, and databases.
+                        </p>
+
+                        <div class="contact-links">
+
+                            <a href="mailto:your-email@example.com">
+                                Email Me
+                            </a>
+
+                            <a href="#" target="_blank" rel="noopener">
+                                GitHub
+                            </a>
+
+                            <a href="#" target="_blank" rel="noopener">
+                                LinkedIn
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <form class="contact-form" id="contactForm">
+
+                        <div class="form-group">
+
+                            <label for="name">
+                                Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Message
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container footer-container">
+
+            <p>
+                © <span id="currentYear"></span> Jeffrey Davila.
+                Built with HTML, CSS & JavaScript.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="scripts/main.js"></script>
+
 </body>
 </html>
