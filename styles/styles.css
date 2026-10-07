@@ -91,6 +91,7 @@ textarea {
 
 .section-label {
     display: inline-block;
+
     margin-bottom: 10px;
 
     color: var(--primary);
@@ -123,10 +124,10 @@ textarea {
 .site-header {
     position: sticky;
     top: 0;
+
     z-index: 1000;
 
-    background:
-        rgba(247, 248, 250, 0.92);
+    background: rgba(247, 248, 250, 0.92);
 
     border-bottom: 1px solid var(--border);
 
@@ -144,6 +145,7 @@ textarea {
 .logo {
     font-size: 1.25rem;
     font-weight: 900;
+
     letter-spacing: -0.03em;
 }
 
@@ -154,6 +156,7 @@ textarea {
 .main-navigation {
     display: flex;
     align-items: center;
+
     gap: 28px;
 }
 
@@ -165,7 +168,7 @@ textarea {
     font-size: 0.95rem;
     font-weight: 700;
 
-    transition: 0.25s ease;
+    transition: color 0.25s ease;
 }
 
 .main-navigation a:hover,
@@ -177,6 +180,7 @@ textarea {
     content: "";
 
     position: absolute;
+
     left: 0;
     bottom: -8px;
 
@@ -197,8 +201,8 @@ textarea {
     display: none;
 
     border: 0;
-    background: transparent;
 
+    background: transparent;
     color: var(--text);
 
     font-size: 1.8rem;
@@ -222,9 +226,11 @@ textarea {
 
 .hero-container {
     display: grid;
+
     grid-template-columns: 1.25fr 0.75fr;
 
     align-items: center;
+
     gap: 70px;
 }
 
@@ -251,6 +257,7 @@ textarea {
     color: var(--text-soft);
 
     font-size: clamp(1.25rem, 3vw, 2rem);
+
     line-height: 1.35;
 }
 
@@ -268,6 +275,7 @@ textarea {
 
 .hero-description {
     max-width: 700px;
+
     margin-top: 24px;
 
     color: var(--text-soft);
@@ -278,6 +286,7 @@ textarea {
 .hero-buttons {
     display: flex;
     flex-wrap: wrap;
+
     gap: 14px;
 
     margin-top: 32px;
@@ -305,7 +314,8 @@ textarea {
     transition:
         transform 0.2s ease,
         box-shadow 0.2s ease,
-        background 0.2s ease;
+        background 0.2s ease,
+        border-color 0.2s ease;
 }
 
 .btn:hover {
@@ -314,7 +324,7 @@ textarea {
 
 .btn-primary {
     background: var(--primary);
-    color: white;
+    color: #ffffff;
 
     box-shadow:
         0 10px 25px rgba(37, 99, 235, 0.22);
@@ -326,6 +336,7 @@ textarea {
 
 .btn-secondary {
     background: var(--surface);
+
     border-color: var(--border);
 }
 
@@ -350,10 +361,10 @@ textarea {
 
     padding: 12px;
 
+    background: var(--surface);
+
     border: 1px solid var(--border);
     border-radius: 30px;
-
-    background: var(--surface);
 
     box-shadow: var(--shadow);
 }
@@ -362,7 +373,9 @@ textarea {
     content: "";
 
     position: absolute;
+
     inset: -16px;
+
     z-index: -1;
 
     border-radius: 38px;
@@ -377,6 +390,7 @@ textarea {
 
 .profile-card img {
     width: 100%;
+
     aspect-ratio: 4 / 5;
 
     object-fit: cover;
@@ -391,14 +405,17 @@ textarea {
 
 .about-grid {
     display: grid;
+
     grid-template-columns: 1fr 1fr;
 
     gap: 40px;
+
     align-items: start;
 }
 
 .about-content {
     display: grid;
+
     gap: 20px;
 }
 
@@ -432,8 +449,9 @@ textarea {
 }
 
 .education-item:first-of-type {
-    border-top: 0;
     padding-top: 0;
+
+    border-top: 0;
 }
 
 .education-item h4 {
@@ -442,10 +460,7 @@ textarea {
     font-size: 1.05rem;
 }
 
-.education-item p {
-    color: var(--text-soft);
-}
-
+.education-item p,
 .education-item small {
     color: var(--text-soft);
 }
@@ -455,10 +470,10 @@ textarea {
 
     padding: 5px 10px;
 
-    border-radius: 999px;
-
     background: rgba(37, 99, 235, 0.1);
     color: var(--primary);
+
+    border-radius: 999px;
 
     font-size: 0.72rem;
     font-weight: 800;
@@ -480,6 +495,7 @@ textarea {
 
 .skills-grid {
     display: grid;
+
     grid-template-columns:
         repeat(3, minmax(0, 1fr));
 
@@ -513,11 +529,10 @@ textarea {
     height: 52px;
 
     display: grid;
+
     place-items: center;
 
     margin-bottom: 20px;
-
-    border-radius: 14px;
 
     background:
         linear-gradient(
@@ -527,6 +542,8 @@ textarea {
         );
 
     color: var(--primary);
+
+    border-radius: 14px;
 
     font-size: 0.78rem;
     font-weight: 900;
@@ -551,6 +568,7 @@ textarea {
 
 .projects-grid {
     display: grid;
+
     grid-template-columns:
         repeat(2, minmax(0, 1fr));
 
@@ -570,7 +588,8 @@ textarea {
 
     transition:
         transform 0.25s ease,
-        box-shadow 0.25s ease;
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
 }
 
 .project-card:hover {
@@ -587,6 +606,7 @@ textarea {
 
 .project-image img {
     width: 100%;
+
     aspect-ratio: 16 / 9;
 
     object-fit: cover;
@@ -613,6 +633,7 @@ textarea {
     font-weight: 900;
 
     text-transform: uppercase;
+
     letter-spacing: 0.1em;
 }
 
@@ -629,6 +650,7 @@ textarea {
 .project-tech {
     display: flex;
     flex-wrap: wrap;
+
     gap: 8px;
 
     margin-top: 20px;
@@ -638,10 +660,9 @@ textarea {
     padding: 6px 10px;
 
     background: var(--surface-soft);
+    color: var(--text-soft);
 
     border-radius: 999px;
-
-    color: var(--text-soft);
 
     font-size: 0.78rem;
     font-weight: 700;
@@ -649,6 +670,7 @@ textarea {
 
 .project-links {
     display: flex;
+
     gap: 18px;
 
     margin-top: 22px;
@@ -664,8 +686,45 @@ textarea {
     text-decoration: underline;
 }
 
+
+/* =========================================
+   CASIL SHOTS PROJECT
+   ========================================= */
+
+.casilshots-card .project-image {
+    background: #f7f3ee;
+}
+
+.casilshots-card .project-type {
+    color: #8b5e34;
+}
+
+.casilshots-card .project-tech span {
+    background: #f7f3ee;
+    color: #72513a;
+}
+
+.casilshots-card .project-link {
+    color: #8b5e34;
+}
+
+.casilshots-card:hover {
+    border-color: rgba(139, 94, 52, 0.35);
+}
+
+.casilshots-card .project-image img {
+    object-position: center;
+}
+
+
+/* =========================================
+   FUTURE AI PROJECT
+   ========================================= */
+
 .future-project {
-    min-height: 300px;
+    grid-column: 1 / -1;
+
+    min-height: 260px;
 
     display: flex;
     align-items: center;
@@ -676,6 +735,12 @@ textarea {
             rgba(37, 99, 235, 0.07),
             rgba(124, 58, 237, 0.08)
         );
+
+    border-style: dashed;
+}
+
+.future-project .project-content {
+    max-width: 700px;
 }
 
 
@@ -685,14 +750,16 @@ textarea {
 
 .contact-section {
     background: #10131a;
-    color: white;
+    color: #ffffff;
 }
 
 .contact-container {
     display: grid;
+
     grid-template-columns: 0.9fr 1.1fr;
 
     gap: 60px;
+
     align-items: start;
 }
 
@@ -703,6 +770,7 @@ textarea {
 .contact-links {
     display: flex;
     flex-wrap: wrap;
+
     gap: 18px;
 
     margin-top: 28px;
@@ -715,7 +783,7 @@ textarea {
 }
 
 .contact-links a:hover {
-    color: white;
+    color: #ffffff;
 }
 
 .contact-form {
@@ -729,6 +797,7 @@ textarea {
 
 .form-group {
     display: grid;
+
     gap: 8px;
 
     margin-bottom: 20px;
@@ -744,11 +813,11 @@ textarea {
 
     padding: 13px 14px;
 
+    background: #11151c;
+    color: #ffffff;
+
     border: 1px solid #343b49;
     border-radius: 10px;
-
-    background: #11151c;
-    color: white;
 
     outline: none;
 }
@@ -790,6 +859,7 @@ textarea {
 
 .reveal {
     opacity: 0;
+
     transform: translateY(24px);
 
     transition:
@@ -799,6 +869,7 @@ textarea {
 
 .reveal.visible {
     opacity: 1;
+
     transform: translateY(0);
 }
 
@@ -821,6 +892,12 @@ textarea {
 
     .hero-image {
         order: 2;
+
+        justify-content: flex-start;
+    }
+
+    .profile-card {
+        max-width: 320px;
     }
 
     .skills-grid {
@@ -832,18 +909,14 @@ textarea {
         grid-template-columns: 1fr;
     }
 
-    .hero-image {
-        justify-content: flex-start;
-    }
-
-    .profile-card {
-        max-width: 320px;
+    .future-project {
+        grid-column: auto;
     }
 }
 
 
 /* =========================================
-   MOBILE NAVIGATION
+   MOBILE
    ========================================= */
 
 @media (max-width: 720px) {
@@ -864,6 +937,7 @@ textarea {
         right: 0;
 
         display: none;
+
         flex-direction: column;
         align-items: stretch;
 
@@ -915,6 +989,10 @@ textarea {
 
     .skills-grid {
         grid-template-columns: 1fr;
+    }
+
+    .project-links {
+        flex-wrap: wrap;
     }
 
     .contact-form {
